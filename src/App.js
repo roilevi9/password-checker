@@ -2,8 +2,6 @@ import './App.css';
 import { useState, useEffect } from 'react';
 import Password from './Password'
 
-git config --global user.email "you@example.com"
-git config --global user.name "Your Name"
 function App() {
 
   const [password, setPassowrdValue] = useState("")
